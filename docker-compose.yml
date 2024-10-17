@@ -4,6 +4,6 @@ services:
    image: httpd:latest
    ports:
      - '80:80'
-   container_name: rd01
+   container_name: accounting
    volumes:
    - . /usr/local/apache2/htdocs/
